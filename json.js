@@ -4,3 +4,4 @@ const user={
     money:500000,
     passion:'serial killer'
 }
+console.log(JSON.stringify(user))
