@@ -7,8 +7,5 @@ const user={
 console.log(JSON.stringify(user))
 console.log(user)
 
-const x=50
-console.log(typeof(x))
+console.log(JSON.parse(JSON.stringify(user)))
 
-const y=console.log(JSON.stringify(x))
-console.log(typeof(y))
