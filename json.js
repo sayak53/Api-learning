@@ -5,3 +5,4 @@ const user={
     passion:'serial killer'
 }
 console.log(JSON.stringify(user))
+console.log(user)
