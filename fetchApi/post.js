@@ -8,6 +8,7 @@ function displayPosts(posts){
     const div = document.getElementById('post-container')
     for(const post of posts){
        const postDiv = document.createElement('div')
+       postDiv.classList.add('post')
        postDiv.innerHTML = `
          <h3>UserID: ${post.id}</h3>
          <h3>Post-title: ${post.title}</h3>
